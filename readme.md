@@ -70,17 +70,20 @@ Now that you have the environment configured, you need to create a database conf
 And to initial populate database use this:
 
     php artisan db:seed
-    
-    optional
-    
+ 
+To run with laravel server use:
+
     php artisan serve --port=3000
  
 If you install on your localhost in folder paraga-membership, you can type on web browser:
 
+
 	http://localhost/paraga-membership/public
 
 If you ran with artisan you can navigate to
-	http://localhost:3000/
+
+	http://localhost:3000
+
 -------------------------------------------
 <a name="step5"></a>
 ### Step 5: Start Page
