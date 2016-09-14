@@ -20,7 +20,7 @@
 <a name="step1"></a>
 ### Step 1: Get the code - Download the repository
 
-    https://github.com/mrakodol/Laravel-5-Bootstrap-3-Starter-Site/archive/master.zip
+    https://github.com/evilboss/paraga-membership
 
 move it to www(or htdocs if you using XAMPP) folder and put it for example in peraga-membership folder.
 
@@ -70,11 +70,18 @@ Now that you have the environment configured, you need to create a database conf
 And to initial populate database use this:
 
     php artisan db:seed
-
+    
+    optional
+    
+    php artisan serve --port=3000
+ 
 If you install on your localhost in folder paraga-membership, you can type on web browser:
 
 	http://localhost/paraga-membership/public
-------------------------------------------
+
+If you ran with artisan you can navigate to
+	http://localhost:3000/
+-------------------------------------------
 <a name="step5"></a>
 ### Step 5: Start Page
 
